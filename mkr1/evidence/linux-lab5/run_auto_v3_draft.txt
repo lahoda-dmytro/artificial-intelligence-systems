@@ -1,0 +1,44 @@
+labreport · lab5 · профіль linux · звіт → ІПЗ-23-5_Лагода_ЛР5_звіт_generated.md
+  → list_dir {'path': 'lab5', 'recursive': True}
+  → list_dir {'path': '.', 'recursive': True}
+  → read_pdf {'path': 'Посібник_Програмування_для_ОС_Linux.pdf'}
+  → read_file {'paths': '<7 файлів>'}
+  → write_report {'content': '<15763 симв.>'}
+  → check_report {}
+gemini-3.5-flash-lite: 503, повтор через 10 с
+  → read_file {'paths': '<3 файлів>'}
+  → view_image {'paths': '<16 файлів>'}
+  → check_report {}
+Звіт успішно створено та перевірено (check_report не виявив жодних зауважень). Усі файли проєкту, вихідні коди, етапи збірки, сесії GDB,   
+звіти Valgrind/ASan та трасування strace повністю задокументовані згідно з вимогами.                                                       
+~ ІПЗ-23-5_Лагода_ЛР5_звіт_generated.md: +488 −0 рядків (весь diff: /diff)
+Traceback (most recent call last):
+  File "C:\01_labs\04_course\системи штучного інтелекту\mkr1\solution\labreport.py", line 457, in <module>
+    main()
+    ~~~~^^
+  File "C:\01_labs\04_course\системи штучного інтелекту\mkr1\solution\labreport.py", line 407, in main
+    s.save()
+    ~~~~~~^^
+  File "C:\01_labs\04_course\системи штучного інтелекту\mkr1\solution\labreport.py", line 192, in save
+    figs = convert(self.report, docx_path, self.lab)
+  File "C:\01_labs\04_course\системи штучного інтелекту\mkr1\solution\md2docx.py", line 170, in convert
+    doc.save(out)
+    ~~~~~~~~^^^^^
+  File "C:\Users\entom\AppData\Roaming\Python\Python314\site-packages\docx\document.py", line 204, in save
+    self._part.save(path_or_stream)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\entom\AppData\Roaming\Python\Python314\site-packages\docx\parts\document.py", line 114, in save
+    self.package.save(path_or_stream)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\entom\AppData\Roaming\Python\Python314\site-packages\docx\opc\package.py", line 166, in save
+    PackageWriter.write(pkg_file, self.rels, self.parts)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\entom\AppData\Roaming\Python\Python314\site-packages\docx\opc\pkgwriter.py", line 34, in write
+    phys_writer = PhysPkgWriter(pkg_file)
+  File "C:\Users\entom\AppData\Roaming\Python\Python314\site-packages\docx\opc\phys_pkg.py", line 109, in __init__
+    self._zipf = ZipFile(pkg_file, "w", compression=ZIP_DEFLATED)
+                 ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\zipfile\__init__.py", line 1453, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\01_labs\\04_course\\системи штучного інтелекту\\mkr1\\evidence\\linux-lab5\\ІПЗ-23-5_Лагода_ЛР5_звіт_generated.docx'

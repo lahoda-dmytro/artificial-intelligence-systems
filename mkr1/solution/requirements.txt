@@ -1,0 +1,6 @@
+google-genai>=3.6
+pypdf>=7
+rich>=15
+python-dotenv>=1
+python-docx>=1
+pillow>=10

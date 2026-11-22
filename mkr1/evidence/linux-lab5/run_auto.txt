@@ -1,0 +1,16 @@
+labreport · lab5 · профіль linux · звіт → ІПЗ-23-5_Лагода_ЛР5_звіт_final.md
+  → list_dir {'path': '.', 'recursive': True}
+  → read_pdf {'path': 'Посібник_Програмування_для_ОС_Linux.pdf'}
+  → read_file {'paths': '<7 файлів>'}
+  → view_image {'paths': '<16 файлів>'}
+  → write_report {'content': '<16853 симв.>'}
+  → check_report {}
+  → read_file {'paths': '<3 файлів>'}
+  → write_report {'content': '<19242 симв.>'}
+  → check_report {}
+Звіт до лабораторної роботи №5 успішно створено та перевірено автоматичним валідатором. Усі файли проєкту (logger.c/h, ring_buffer.c/h,    
+main.c, стартові заготовки buggy_list.c, fixed_list.c, модульні тести, Makefile та CMakeLists.txt) повністю проаналізовані та включені до  
+відповідних кроків звіту.                                                                                                                  
+~ ІПЗ-23-5_Лагода_ЛР5_звіт_final.md: +612 −0 рядків (весь diff: /diff)
++ ІПЗ-23-5_Лагода_ЛР5_звіт_final.docx (16 рисунків)
+збережено C:\01_labs\04_course\системи штучного інтелекту\mkr1\evidence\linux-lab5\ІПЗ-23-5_Лагода_ЛР5_звіт_final.md
