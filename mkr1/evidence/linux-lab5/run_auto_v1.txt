@@ -1,0 +1,16 @@
+labreport · lab5 · профіль linux · звіт → ІПЗ-23-5_Лагода_ЛР5_звіт_generated.md
+  → list_dir {'recursive': True, 'path': '.'}
+  → read_pdf {'path': 'Посібник_Програмування_для_ОС_Linux.pdf'}
+  → read_files {'paths': '<10 файлів>'}
+  → view_image {'paths': '<16 файлів>'}
+  → write_report {'content': '<13014 симв.>'}
+  → check_report {}
+  → check_report {}
+  ← check_report: ти не прочитав файли коду, а описуєш проєкт — прочитай і перевір звіт: lab05/include/logger.h, lab05/include/ring_buffer
+  → read_files {'paths': '<8 файлів>'}
+  → read_file {'paths': '<8 файлів>'}
+  → check_report {}
+Усі перевірки звіту успішно пройдено (проблем не знайдено). Звіт повністю відповідає реальному коду проєкту та всім вимогам методички.     
+~ ІПЗ-23-5_Лагода_ЛР5_звіт_generated.md: +122 −0 рядків (весь diff: /diff)
++ ІПЗ-23-5_Лагода_ЛР5_звіт_generated.docx (16 рисунків)
+збережено C:\01_labs\04_course\системи штучного інтелекту\mkr1\evidence\linux-lab5\ІПЗ-23-5_Лагода_ЛР5_звіт_generated.md

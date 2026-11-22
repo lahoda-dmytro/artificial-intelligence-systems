@@ -1,0 +1,29 @@
+labreport · lab4 · профіль mobile · звіт → README_generated_v3.md
+gemini-3.6-flash: 429, повтор через 70 с
+gemini-3.6-flash: 429, повтор через 70 с
+gemini-3.6-flash: 429, повтор через 70 с
+gemini-3.8-flash: 503, повтор через 10 с
+  → read_pdf {'path': 'Лабораторна робота №4.pdf'}
+  → list_dir {'path': '.', 'recursive': True}
+  → read_file {'paths': '<8 файлів>'}
+  → view_image {'paths': '<7 файлів>'}
+  → read_file {'paths': ['src/data/gestures.js', 'src/components/task-row.jsx']}
+  → write_report {'content': '<7395 симв.>'}
+gemini-3.8-flash: 503, повтор через 10 с
+gemini-3.8-flash: 503, повтор через 20 с
+gemini-3.8-flash: 503, повтор через 30 с
+gemini-3.6-flash: 429, повтор через 70 с
+gemini-3.6-flash: 429, повтор через 70 с
+gemini-3.6-flash: 429, повтор через 70 с
+Traceback (most recent call last):
+  File "C:\01_labs\04_course\системи штучного інтелекту\mkr2\solution\labreport.py", line 428, in <module>
+    main()
+    ~~~~^^
+  File "C:\01_labs\04_course\системи штучного інтелекту\mkr2\solution\labreport.py", line 375, in main
+    console.print(Markdown(s.ask(first + " Напиши звіт.")))
+                           ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\01_labs\04_course\системи штучного інтелекту\mkr2\solution\labreport.py", line 301, in ask
+    resp = self.generate()
+  File "C:\01_labs\04_course\системи штучного інтелекту\mkr2\solution\labreport.py", line 292, in generate
+    raise RuntimeError("усі моделі недоступні, спробуй пізніше")
+RuntimeError: усі моделі недоступні, спробуй пізніше
